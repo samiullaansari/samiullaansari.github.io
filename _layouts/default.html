@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      line-height: 1.7;
+      color: #111;
+    }
+
+    h1 { font-size: 32px; }
+    h2 { margin-top: 40px; border-bottom: 1px solid #eee; }
+
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .timeline {
+      border-left: 2px solid #ddd;
+      margin-left: 10px;
+      padding-left: 20px;
+    }
+
+    .item {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .item::before {
+      content: "";
+      position: absolute;
+      left: -29px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      background: #111;
+      border-radius: 50%;
+    }
+
+    .year { font-size: 13px; color: #666; }
+  </style>
+</head>
+
+<body>
+
+<h1>Samiulla Ansari</h1>
+<p>Senior AI/ML Engineer — NLP, GenAI, LLM Systems</p>
+
+{{ content }}
+
+</body>
+</html>
