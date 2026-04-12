@@ -44,7 +44,7 @@ Interested in LLM systems, RAG architectures, and real-world AI deployment.
       <div class="dot"></div>
     </div>
     <div class="content">
-      <img src="/assets/jio.png" class="logo">
+      <img src="/assets/jio.jpg" class="logo">
       <b>Jio</b>, Data Scientist<br>
       Worked on large-scale telecom data and predictive ML systems.
     </div>
