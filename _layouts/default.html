@@ -48,65 +48,66 @@
       text-decoration: underline;
     }
 
-    /* ===== CAREER TIMELINE (FIXED - CONTINUOUS LINE) ===== */
+    /* ===== FINAL KARPATHY TIMELINE ===== */
 
     .career {
       position: relative;
-      margin-top: 15px;
+      margin-top: 10px;
     }
 
-    /* SINGLE CONTINUOUS VERTICAL LINE */
+    /* CONTINUOUS LINE */
     .career::before {
       content: "";
       position: absolute;
-      left: 110px;   /* adjust slightly if needed */
-      top: 0;
-      bottom: 0;
+      left: 102px;   /* tighter alignment */
+      top: 4px;
+      bottom: 4px;
       width: 1px;
-      background: #ccc;
+      background: #d0d0d0;
     }
 
     .row {
       display: grid;
-      grid-template-columns: 110px 20px 1fr;
+      grid-template-columns: 95px 14px 1fr;
       align-items: start;
-      margin-bottom: 22px;
+      margin-bottom: 14px;   /* tighter spacing */
     }
 
     /* YEAR */
     .year {
       font-size: 13px;
-      color: #777;
+      color: #888;
       text-align: right;
-      padding-right: 10px;
-      line-height: 1.4;
+      padding-right: 8px;
     }
 
-    /* MIDDLE COLUMN (DOT ONLY) */
+    /* DOT COLUMN */
     .line {
       display: flex;
       justify-content: center;
+      position: relative;
     }
 
+    /* DOT */
     .dot {
-      width: 8px;
-      height: 8px;
-      background: #bbb;
+      width: 7px;
+      height: 7px;
+      background: #c0c0c0;
       border-radius: 50%;
-      margin-top: 6px;
+      margin-top: 4px;
     }
 
     /* CONTENT */
     .content {
-      padding-left: 10px;
-      line-height: 1.5;
+      padding-left: 8px;
+      line-height: 1.45;
     }
 
     /* LOGO */
     .logo {
-      height: 20px;
+      height: 22px;
       vertical-align: middle;
-      margin-right: 6px;
+      margin-right: 8px;
     }
 
   </style>
