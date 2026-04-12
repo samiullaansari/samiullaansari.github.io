@@ -7,52 +7,60 @@
 
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-      max-width: 800px;
-      margin: auto;
-      padding: 40px 20px;
-      line-height: 1.7;
+      font-family: Arial, sans-serif;
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 0 10px;
+      line-height: 1.5;
+      font-size: 15px;
       color: #111;
     }
 
-    h1 { font-size: 32px; }
-    h2 { margin-top: 40px; border-bottom: 1px solid #eee; }
-
-    a { color: #0077cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    .timeline {
-      border-left: 2px solid #ddd;
-      margin-left: 10px;
-      padding-left: 20px;
+    /* Minimal nav */
+    .nav {
+      font-size: 14px;
+      margin-bottom: 20px;
     }
 
-    .item {
-      margin-bottom: 25px;
-      position: relative;
+    .nav a {
+      margin-right: 12px;
+      color: #0000EE;
+      text-decoration: underline;
     }
 
-    .item::before {
-      content: "";
-      position: absolute;
-      left: -29px;
-      top: 5px;
-      width: 10px;
-      height: 10px;
-      background: #111;
-      border-radius: 50%;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
     }
 
-    .year { font-size: 13px; color: #666; }
+    h2 {
+      font-size: 16px;
+      margin-top: 25px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    a {
+      color: #0000EE;
+      text-decoration: underline;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Samiulla Ansari</h1>
-<p>Senior AI/ML Engineer — NLP, GenAI, LLM Systems</p>
+<div class="nav">
+  <a href="/">home</a>
+  <a href="/projects">projects</a>
+  <a href="/blog">writeups</a>
+  <a href="https://www.linkedin.com/in/sami-iitb/" target="_blank">linkedin</a>
+  <a href="https://github.com/samiullaansari" target="_blank">github</a>
+</div>
 
 {{ content }}
 
 </body>
 </html>
+
