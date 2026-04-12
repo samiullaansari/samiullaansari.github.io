@@ -28,8 +28,6 @@ title: Home
 
 <div class="content-container">
 
-<b>Career</b>
-
 <div class="career">
 
   <div class="row">
@@ -65,7 +63,11 @@ title: Home
 <b>Projects</b>
 
 <ul>
-  <li><a href="https://github.com/samiullaansari/AI-Interview-Questions">AI Interview Questions</a></li>
+  <li>
+    <a href="https://github.com/samiullaansari/AI-Interview-Questions">
+      AI Interview Questions
+    </a>
+  </li>
 </ul>
 
 </div>
