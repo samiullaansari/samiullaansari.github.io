@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<div style="display: flex; align-items: flex-start;">
+
+  <div style="flex: 1;">
+
 # Samiulla Ansari
 
 I am a Senior AI/ML Engineer working on NLP, Generative AI and large-scale machine learning systems.
@@ -11,23 +15,42 @@ Currently at **HSBC**, previously at **Jio**. M.Tech from IIT Bombay.
 
 Interested in LLM systems, RAG architectures, and real-world AI deployment.
 
+  </div>
+
+  <img src="/assets/profile.jpg" style="height:90px; margin-left:20px; border-radius:4px;">
+
+</div>s
 ---
 
 ## Career
 
-<p>
-<img src="/assets/hsbc.png" style="height:14px; vertical-align:middle; margin-right:5px;">
-<b>HSBC</b>, AI/ML Engineer<br>
-<span style="color:#666;">2022 — Present</span><br>
-Built and deployed production NLP systems for extracting structured insights from financial data and scalable ML pipelines.
-</p>
+<div class="career">
 
-<p>
-<img src="/assets/jio.png" style="height:14px; vertical-align:middle; margin-right:5px;">
-<b>Jio</b>, Data Scientist<br>
-<span style="color:#666;">2019 — 2022</span><br>
-Developed ML models on large-scale telecom data and built end-to-end predictive systems.
-</p>
+  <div class="row">
+    <div class="year">2022 - Present</div>
+    <div class="line">
+      <div class="dot"></div>
+    </div>
+    <div class="content">
+      <img src="/assets/hsbc.png" class="logo">
+      <b>HSBC</b>, AI/ML Engineer<br>
+      Built production NLP systems for financial data processing and scalable ML pipelines.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="year">2019 - 2022</div>
+    <div class="line">
+      <div class="dot"></div>
+    </div>
+    <div class="content">
+      <img src="/assets/jio.png" class="logo">
+      <b>Jio</b>, Data Scientist<br>
+      Worked on large-scale telecom data and predictive ML systems.
+    </div>
+  </div>
+
+</div>
 
 ---
 
