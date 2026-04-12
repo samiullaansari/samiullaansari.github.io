@@ -1,0 +1,32 @@
+name: Samiulla Ansari
+profile_image: /assets/profile.jpg
+profile_alt: Portrait of Samiulla Ansari
+tagline:
+  line_1: I like building language models, generative systems,
+  line_2: and the plumbing behind them
+  icons: 🧠⚙️🚀
+home_nav:
+  - label: Projects
+    href: "#projects"
+  - label: Writeups
+    href: /writeups/
+career:
+  - year: "2026 -"
+    image: /assets/academian.jpg
+    alt: Aceademian logo
+    text: Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines.
+  - year: 2024 - 2026
+    image: /assets/hsbc.png
+    alt: HSBC logo
+    text: Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines.
+  - year: 2020 - 2024
+    image: /assets/jio.jpg
+    alt: Jio logo
+    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems.
+  - year: 2018 - 2020
+    image: /assets/iitb.png
+    alt: IIT Bombay logo
+    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems.
+projects:
+  - title: AI Interview Questions
+    href: https://github.com/samiullaansari/AI-Interview-Questions

@@ -1,3 +1,4 @@
 title: Samiulla Ansari
 description: Senior AI Engineer | NLP | GenAI | LLM Systems
-theme: minima
+plugins:
+  - jekyll-feed

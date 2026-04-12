@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+{% assign home = site.data.home %}
+
+<div class="header-container">
+  <div class="header">
+    <img src="{{ home.profile_image | relative_url }}" class="profile-img" alt="{{ home.profile_alt }}">
+
+    <div class="header-text">
+      <h1>{{ home.name }}</h1>
+      <p class="tagline">
+        {{ home.tagline.line_1 }}<br>
+        {{ home.tagline.line_2 }} <span class="tagline-icons" aria-hidden="true">{{ home.tagline.icons }}</span>
+      </p>
+
+      {% include social-links.html %}
+
+      <div class="nav nav-home">
+        {% for item in home.home_nav %}
+        <a href="{{ item.href | relative_url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider divider-profile"></div>
+
+<div class="content-container">
+  <div class="career">
+    {% for role in home.career %}
+    {% include career-row.html year=role.year image=role.image alt=role.alt text=role.text %}
+    {% endfor %}
+  </div>
+
+  <div class="divider"></div>
+
+  <h2 id="projects" class="section-title">Projects</h2>
+
+  <ul>
+    {% for project in home.projects %}
+    <li>
+      <a href="{{ project.href }}">{{ project.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

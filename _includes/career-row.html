@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="year">{{ include.year }}</div>
+  <div class="line"><div class="dot"></div></div>
+
+  <div class="content">
+    <img src="{{ include.image | relative_url }}" class="logo" alt="{{ include.alt }}">
+    <div class="content-text">
+      {{ include.text }}
+    </div>
+  </div>
+</div>
