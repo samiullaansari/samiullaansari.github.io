@@ -3,20 +3,22 @@ layout: default
 title: Home
 ---
 
-<div class="header">
+<div class="header-container">
 
-  <img src="/assets/profile.jpg" class="profile-img">
+  <div class="header">
+    <img src="/assets/profile.jpg" class="profile-img">
 
-  <div class="header-text">
-    <h1>Samiulla Ansari</h1>
-    <p class="tagline">
-      I build AI systems for real-world impact across NLP, Generative AI and large-scale ML systems.
-    </p>
+    <div class="header-text">
+      <h1>Samiulla Ansari</h1>
+      <p class="tagline">
+        I build AI systems for real-world impact across NLP, Generative AI and large-scale ML systems.
+      </p>
 
-    <div class="social">
-      <a href="https://github.com/samiullaansari">GitHub</a>
-      <a href="https://www.linkedin.com/in/sami-iitb/">LinkedIn</a>
-      <a href="#">X</a>
+      <div class="social">
+        <a href="https://github.com/samiullaansari">GitHub</a>
+        <a href="https://www.linkedin.com/in/sami-iitb/">LinkedIn</a>
+        <a href="#">X</a>
+      </div>
     </div>
   </div>
 
@@ -24,7 +26,9 @@ title: Home
 
 <div class="divider"></div>
 
-## Career
+<div class="content-container">
+
+<b>Career</b>
 
 <div class="career">
 
@@ -58,17 +62,11 @@ title: Home
 
 <div class="divider"></div>
 
-## Projects
+<b>Projects</b>
 
-- [AI Interview Questions](https://github.com/samiullaansari/AI-Interview-Questions)
+<ul>
+  <li><a href="https://github.com/samiullaansari/AI-Interview-Questions">AI Interview Questions</a></li>
+</ul>
 
----
-
-## Writing
-
-{% raw %}
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
-{% endraw %}
+</div>
 

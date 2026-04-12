@@ -8,9 +8,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 900px;
       margin: 30px auto;
-      padding-left: 40px;
       line-height: 1.45;
       font-size: 14px;
       color: #222;
@@ -18,8 +16,10 @@
 
     /* NAV */
     .nav {
+      max-width: 900px;
+      margin: auto;
       font-size: 13px;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
 
     .nav a {
@@ -28,7 +28,12 @@
       text-decoration: underline;
     }
 
-    /* HEADER */
+    /* HEADER (NARROW + CENTERED) */
+    .header-container {
+      max-width: 600px;
+      margin: auto;
+    }
+
     .header {
       display: flex;
       align-items: center;
@@ -56,36 +61,33 @@
       font-size: 13px;
     }
 
-    /* DIVIDER */
+    /* CONTENT (WIDER) */
+    .content-container {
+      max-width: 900px;
+      margin: auto;
+      padding-left: 20px;
+    }
+
+    /* FULL WIDTH DIVIDER */
     .divider {
       height: 1px;
-      margin: 20px 0;
+      margin: 25px auto;
+      max-width: 900px;
       background: linear-gradient(to right, transparent, #ccc, transparent);
     }
 
-    /* HEADINGS */
-    h2 {
-      font-size: 15px;
-      margin-top: 20px;
-    }
-
-    a {
-      color: #0000EE;
-      text-decoration: underline;
-    }
-
-    /* ===== TIMELINE ===== */
-
+    /* TIMELINE */
     .career {
       position: relative;
+      margin-top: 10px;
     }
 
     .career::before {
       content: "";
       position: absolute;
-      left: 118px;
-      top: 8px;
-      bottom: 8px;
+      left: calc(110px + 10px);
+      top: 10px;
+      bottom: 10px;
       width: 1px;
       background: #d6d6d6;
     }
@@ -93,6 +95,7 @@
     .row {
       display: grid;
       grid-template-columns: 110px 20px 1fr;
+      align-items: start;
       margin-bottom: 14px;
     }
 
@@ -105,6 +108,7 @@
 
     .line {
       display: flex;
+      align-items: center;
       justify-content: center;
       position: relative;
     }
@@ -114,31 +118,24 @@
       height: 6px;
       background: #c8c8c8;
       border-radius: 50%;
-      position: relative;
-      top: 5px;
       z-index: 2;
     }
 
-    /* GAP EFFECT */
     .line::before {
       content: "";
       position: absolute;
       width: 12px;
       height: 16px;
       background: white;
-      top: 0;
       z-index: 1;
     }
 
-    /* CONTENT */
     .content {
       display: flex;
-      align-items: flex-start;
       gap: 10px;
     }
 
     .content-text {
-      flex: 1;
       line-height: 1.4;
     }
 
@@ -164,4 +161,3 @@
 
 </body>
 </html>
-
