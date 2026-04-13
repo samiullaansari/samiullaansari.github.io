@@ -14,23 +14,57 @@ career:
   - year: "2026 -"
     image: /assets/academian.jpg
     alt: Aceademian logo
-    text: Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines.
+    text: |
+      **Academian**, Founding AI Engineer
+
+      Building an *applied AI platform* focused on production-grade language systems and evaluation tooling.
+
+       - Designing reusable agent workflows
+       - Shipping retrieval and ranking infrastructure
+       - Testing markdown rendering with a [sample link](https://example.com)
   - year: 2024 - 2026
     image: /assets/hsbc.png
     alt: HSBC logo
-    text: Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines. Built production NLP systems for financial data processing and scalable ML pipelines.
+    text: |
+      **HSBC** — AI/ML Engineer
+
+      Built internal NLP systems for financial workflows, with emphasis on **reliability**, **traceability**, and deployment at scale.
+
+      - Led document intelligence pipelines
+      - Improved model serving and observability
+      - Partnered across engineering and business teams
   - year: 2020 - 2024
     image: /assets/jio.jpg
     alt: Jio logo
-    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems.
+    text: |
+      **Jio**, Data Scientist
+
+      Worked on large-scale telecom data products and predictive modeling systems.
+
+      Key areas included:
+
+      - demand forecasting
+      - customer behavior modeling
+      - analytics automation
   - year: 2018 - 2020
     image: /assets/iitb.png
     alt: IIT Bombay logo
-    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems.
+    text: |
+      **IIT Bombay**, Research Associate
+
+      Explored machine learning systems with a mix of _research prototypes_ and practical experimentation.
+
+      See a representative paper-style reference at [research profile](https://example.com).
   - year: 2013 - 2017
     image: /assets/aktu_logo.png
     alt: AKTU logo
-    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data
+    text: |
+      **AKTU**, B.Tech.
+
+      Academic foundation in computation, data, and systems.
+
+      - Coursework across algorithms, statistics, and software engineering
+      - Early project work in machine learning and data processing
 projects:
   - title: AI Interview Questions
     href: https://github.com/samiullaansari/AI-Interview-Questions

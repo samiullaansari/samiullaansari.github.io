@@ -5,7 +5,7 @@
   <div class="content">
     <img src="{{ include.image | relative_url }}" class="logo" alt="{{ include.alt }}">
     <div class="content-text">
-      {{ include.text }}
+      {{ include.text | markdownify }}
     </div>
   </div>
 </div>

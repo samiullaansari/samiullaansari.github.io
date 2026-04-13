@@ -158,12 +158,10 @@ a {
 }
 
 .divider-profile {
-  width: 100vw;
-  max-width: 100vw;
-  position: relative;
-  left: 50%;
+  width: auto;
+  max-width: none;
   height: var(--divider-profile-line-height);
-  margin: 32px 0 32px -50vw;
+  margin: 32px calc(50% - 50vw + ((100vw - 100%) / 2));
   background: linear-gradient(
     to right,
     transparent 0,
@@ -268,6 +266,38 @@ a {
   color: #333;
 }
 
+.content-text > :first-child {
+  margin-top: 0;
+}
+
+.content-text > :last-child {
+  margin-bottom: 0;
+}
+
+.content-text p,
+.content-text ul,
+.content-text ol {
+  margin: 0 0 0.5em;
+}
+
+.content-text ul,
+.content-text ol {
+  padding-left: 1.2em;
+}
+
+.content-text li {
+  margin-bottom: 0.2em;
+}
+
+.content-text strong,
+.content-text b {
+  color: #2b2b2b;
+}
+
+.content-text em {
+  color: #555;
+}
+
 .content-text a {
   color: #1a0dab;
   text-decoration: underline;
@@ -334,11 +364,11 @@ a {
   }
 
   .row {
-    grid-template-columns: 60px 20px 1fr;
+    grid-template-columns: 56px 20px 1fr;
   }
 
   .career {
-    --timeline-year-width: 60px;
+    --timeline-year-width: 56px;
     --timeline-line-width: 20px;
     --timeline-dot-gap-height: 14px;
     --timeline-anchor-height: 20px;
@@ -365,11 +395,11 @@ a {
 
 @media (max-width: 480px) {
   .row {
-    grid-template-columns: 52px 18px 1fr;
+    grid-template-columns: 48px 18px 1fr;
   }
 
   .career {
-    --timeline-year-width: 52px;
+    --timeline-year-width: 48px;
     --timeline-line-width: 18px;
     --timeline-dot-gap-height: 12px;
     --timeline-anchor-height: 18px;
