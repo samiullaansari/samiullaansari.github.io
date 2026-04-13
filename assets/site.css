@@ -364,11 +364,11 @@ a {
   }
 
   .row {
-    grid-template-columns: 56px 20px 1fr;
+    grid-template-columns: 52px 20px 1fr;
   }
 
   .career {
-    --timeline-year-width: 56px;
+    --timeline-year-width: 52px;
     --timeline-line-width: 20px;
     --timeline-dot-gap-height: 14px;
     --timeline-anchor-height: 20px;
@@ -395,11 +395,11 @@ a {
 
 @media (max-width: 480px) {
   .row {
-    grid-template-columns: 48px 18px 1fr;
+    grid-template-columns: 44px 18px 1fr;
   }
 
   .career {
-    --timeline-year-width: 48px;
+    --timeline-year-width: 44px;
     --timeline-line-width: 18px;
     --timeline-dot-gap-height: 12px;
     --timeline-anchor-height: 18px;
