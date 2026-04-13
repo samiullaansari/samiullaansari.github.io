@@ -27,6 +27,10 @@ career:
     image: /assets/iitb.png
     alt: IIT Bombay logo
     text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data and predictive ML systems.
+  - year: 2013 - 2017
+    image: /assets/aktu_logo.png
+    alt: AKTU logo
+    text: Worked on large-scale telecom data and predictive ML systems. Worked on large-scale telecom data
 projects:
   - title: AI Interview Questions
     href: https://github.com/samiullaansari/AI-Interview-Questions
