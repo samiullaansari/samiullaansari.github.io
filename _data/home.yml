@@ -15,56 +15,62 @@ career:
     image: /assets/academian.jpg
     alt: Aceademian logo
     text: |
-      **Academian**, Founding AI Engineer
+      [**Academian**](https://academian.com/), Lead AI Engineer
 
-      Building an *applied AI platform* focused on production-grade language systems and evaluation tooling.
+      Recently joined to work on applied AI products built around language models, retrieval, and agentic workflows.
 
-       - Designing reusable agent workflows
-       - Shipping retrieval and ranking infrastructure
-       - Testing markdown rendering with a [sample link](https://example.com)
+      Right now the focus is on building the foundations well: evaluation loops, reusable orchestration patterns, and the infrastructure needed to turn promising ideas into dependable product features.
   - year: 2024 - 2026
     image: /assets/hsbc.png
     alt: HSBC logo
     text: |
-      **HSBC** — AI/ML Engineer
+      [**HSBC MSS**](https://www.hsbc.com/), Senior AI Engineer
 
-      Built internal NLP systems for financial workflows, with emphasis on **reliability**, **traceability**, and deployment at scale.
+      Worked on AI systems for trade settlement and reconciliation, where the main challenge was not just model accuracy but making automation dependable enough for high-stakes operational workflows.
 
-      - Led document intelligence pipelines
-      - Improved model serving and observability
-      - Partnered across engineering and business teams
+      Built multi-agent workflows, pattern-driven RAG pipelines, and reliability layers around LLM-based extraction and automation. This included systems for cashflow extraction, reconciliation rule generation, and intelligent handling of production support alerts.
+
+      The strongest outcomes were concrete: extraction accuracy improved from **70% to 96%**, manual settlement effort dropped from **40 people to 5**, and turnaround time went from hours to under a minute.
   - year: 2020 - 2024
     image: /assets/jio.jpg
     alt: Jio logo
     text: |
-      **Jio**, Data Scientist
+      [**Reliance Jio**](https://www.jio.com/), Data Scientist
 
-      Worked on large-scale telecom data products and predictive modeling systems.
+      Worked on forecasting, anomaly detection, and data systems for telecom operations at large scale.
 
-      Key areas included:
+      Built models for utilization forecasting and predictive fault detection, and later worked on retrieval-based systems over internal documents and network data.
 
-      - demand forecasting
-      - customer behavior modeling
-      - analytics automation
+      The most meaningful production outcomes were reducing forecast error from **13% to 4%** and helping reduce unplanned outages by **~40%** through earlier fault prediction and better operational visibility.
   - year: 2018 - 2020
     image: /assets/iitb.png
     alt: IIT Bombay logo
     text: |
-      **IIT Bombay**, Research Associate
+      [**Indian Institute of Technology Bombay**](https://www.iitb.ac.in/), M.Tech
 
-      Explored machine learning systems with a mix of _research prototypes_ and practical experimentation.
+      Completed an M.Tech with focus on machine learning, deep learning, and data mining.
 
-      See a representative paper-style reference at [research profile](https://example.com).
+      This was where the technical foundations became more formal: models, optimization, experimentation, probability, statistics, and the discipline of evaluating systems carefully instead of relying on intuition. I graduated with a GPA of **8.6/10**, and a lot of the later production work in AI and ML sits on top of habits built during this period.
   - year: 2013 - 2017
     image: /assets/aktu_logo.png
     alt: AKTU logo
     text: |
-      **AKTU**, B.Tech.
+      [**AKTU**](https://aktu.ac.in/), B.Tech in Mechanical Engineering
 
-      Academic foundation in computation, data, and systems.
+      Studied mechanical engineering.
 
-      - Coursework across algorithms, statistics, and software engineering
-      - Early project work in machine learning and data processing
+      In practice, this was where the broader engineering habit formed: learning how to reason from first principles, work through systems, and stay comfortable with quantitative problem solving.
+
+      The foundation was built through mathematics, mechanics, modeling, numerical methods, and core engineering analysis. The eventual move into software, data, and AI came later, but the underlying engineering mindset started here.
+certifications:
+  - title: Generative AI with LLMs
+    issuer: AWS / Coursera
+    note: Focused on LLM concepts, transformer foundations, and practical generative AI workflows.
+    file: /assets/genai_with_llms.pdf
+  - title: Deep Learning Specialization
+    issuer: DeepLearning.AI / Coursera
+    note: Covered neural networks, optimization, sequence models, and modern deep learning foundations.
+    file: /assets/DL_Specialization.pdf
 projects:
   - title: AI Interview Questions
     href: https://github.com/samiullaansari/AI-Interview-Questions
