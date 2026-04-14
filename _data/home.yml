@@ -46,7 +46,7 @@ career:
     image: /assets/iitb.png
     alt: IIT Bombay logo
     text: |
-      [**Indian Institute of Technology Bombay**](https://www.iitb.ac.in/), M.Tech
+      [**Indian Institute of Technology Bombay**](https://www.iitb.ac.in/), Master of Technology (M.Tech)
 
       Completed an M.Tech with focus on machine learning, deep learning, and data mining.
 
@@ -55,7 +55,7 @@ career:
     image: /assets/aktu_logo.png
     alt: AKTU logo
     text: |
-      [**AKTU**](https://aktu.ac.in/), B.Tech in Mechanical Engineering
+      [**AKTU**](https://aktu.ac.in/), Bachelor of Technology (B.Tech)
 
       Studied mechanical engineering.
 
@@ -67,10 +67,12 @@ certifications:
     issuer: AWS / Coursera
     note: Focused on LLM concepts, transformer foundations, and practical generative AI workflows.
     file: /assets/genai_with_llms.pdf
+    preview: /assets/genai_with_llms.png
   - title: Deep Learning Specialization
     issuer: DeepLearning.AI / Coursera
     note: Covered neural networks, optimization, sequence models, and modern deep learning foundations.
     file: /assets/DL_Specialization.pdf
+    preview: /assets/DL_Specialization.png
 projects:
   - title: AI Interview Questions
     href: https://github.com/samiullaansari/AI-Interview-Questions

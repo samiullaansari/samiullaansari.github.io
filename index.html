@@ -46,18 +46,22 @@ title: Home
       type="button"
       class="cert-card-button"
       data-cert-title="{{ cert.title | escape }}"
+      data-cert-issuer="{{ cert.issuer | escape }}"
       data-cert-file="{{ cert.file | relative_url }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
       aria-label="Open {{ cert.title }} certificate preview"
     >
       <article class="cert-card">
         <div class="cert-preview-frame" aria-hidden="true">
-          <iframe
-            class="cert-preview-embed"
-            src="{{ cert.file | relative_url }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
-            title="{{ cert.title }} preview"
+          <img
+            class="cert-preview-image"
+            src="{{ cert.preview | relative_url }}"
+            alt="{{ cert.title }} certificate thumbnail"
             loading="lazy"
-            tabindex="-1"
-          ></iframe>
+          >
+          <div class="cert-preview-overlay">
+            <p class="cert-preview-badge">{{ cert.issuer }}</p>
+            <p class="cert-preview-action">Open certificate</p>
+          </div>
         </div>
         <h3 class="cert-title">{{ cert.title }}</h3>
         <p class="cert-issuer">{{ cert.issuer }}</p>
@@ -71,7 +75,11 @@ title: Home
     <div class="cert-modal-backdrop" data-cert-close></div>
     <div class="cert-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title">
       <div class="cert-modal-header">
-        <h3 class="cert-modal-title" id="cert-modal-title">Certificate</h3>
+        <div class="cert-modal-heading">
+          <p class="cert-modal-eyebrow">Certificate Preview</p>
+          <h3 class="cert-modal-title" id="cert-modal-title">Certificate</h3>
+          <p class="cert-modal-subtitle" id="cert-modal-subtitle"></p>
+        </div>
         <button type="button" class="cert-modal-close" data-cert-close aria-label="Close certificate preview">Close</button>
       </div>
       <div class="cert-modal-body">
@@ -97,23 +105,26 @@ title: Home
   (() => {
     const modal = document.getElementById('cert-modal');
     const modalTitle = document.getElementById('cert-modal-title');
+    const modalSubtitle = document.getElementById('cert-modal-subtitle');
     const modalEmbed = document.getElementById('cert-modal-embed');
     const openButtons = document.querySelectorAll('.cert-card-button');
     const closeTargets = document.querySelectorAll('[data-cert-close]');
 
-    if (!modal || !modalTitle || !modalEmbed || !openButtons.length) {
+    if (!modal || !modalTitle || !modalSubtitle || !modalEmbed || !openButtons.length) {
       return;
     }
 
     const closeModal = () => {
       modal.hidden = true;
       modalEmbed.src = 'about:blank';
+      modalSubtitle.textContent = '';
       document.body.classList.remove('cert-modal-open');
     };
 
     openButtons.forEach((button) => {
       button.addEventListener('click', () => {
         modalTitle.textContent = button.dataset.certTitle || 'Certificate';
+        modalSubtitle.textContent = button.dataset.certIssuer || '';
         modalEmbed.src = button.dataset.certFile || 'about:blank';
         modal.hidden = false;
         document.body.classList.add('cert-modal-open');
