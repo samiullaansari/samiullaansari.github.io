@@ -30,7 +30,7 @@ career:
 
       Built multi-agent workflows, pattern-driven RAG pipelines, and reliability layers around LLM-based extraction and automation. This included systems for cashflow extraction, reconciliation rule generation, and intelligent handling of production support alerts.
 
-      The strongest outcomes were concrete: extraction accuracy improved from **70% to 96%**, manual settlement effort dropped from **40 people to 5**, and turnaround time went from hours to under a minute.
+      LLM-based extraction for cashflows and settlement data moved to 96% accuracy, manual settlement effort dropped from 40 people to 5, and turnaround time went from hours to under a minute.
   - year: 2020 - 2024
     image: /assets/jio.jpg
     alt: Jio logo
@@ -41,7 +41,7 @@ career:
 
       Built models for utilization forecasting and predictive fault detection, and later worked on retrieval-based systems over internal documents and network data.
 
-      The most meaningful production outcomes were reducing forecast error from **13% to 4%** and helping reduce unplanned outages by **~40%** through earlier fault prediction and better operational visibility.
+      Forecasting moved from rough estimation to something teams could depend on for planning, and earlier fault prediction helped meaningfully reduce unplanned outages.
   - year: 2018 - 2020
     image: /assets/iitb.png
     alt: IIT Bombay logo
