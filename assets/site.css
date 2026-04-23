@@ -315,7 +315,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(240px, 320px));
   justify-content: start;
-  gap: 14px;
+  gap: 18px;
 }
 
 .cert-card-button {
@@ -620,6 +620,7 @@ body.cert-modal-open {
 
   .certifications-grid {
     grid-template-columns: 1fr;
+    gap: 22px;
   }
 
   .cert-preview-overlay {
